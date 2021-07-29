@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="name" value="nandakumar"></parameter>
+  <parameter name="dob" value="17/05/1995"></parameter>
+  <parameter name="location" value="trichy"></parameter>
+    <classes>
+      <class name="org.testcases.Cls1"/>
+      <class name="org.testcases.Cls2"/>
+      <class name="org.testcases.Cls3"/>
+      <class name="org.testcases.Cls4"/>
+      <class name="org.testcases.Cls5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
